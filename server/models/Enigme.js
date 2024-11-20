@@ -13,8 +13,8 @@ const enigmeSchema = new mongoose.Schema({
       nombreTentatives: { type: Number },
       tempsMoyenResolution: { type: Number }
     }
-})
+});
 
-const EnigmeModel = mongoose.model('Enigme', enigmeSchema, 'Enigme')
+const EnigmeModel = mongoose.model('Enigme', enigmeSchema, 'Enigme');
 
-export default EnigmeModel
+export default EnigmeModel;

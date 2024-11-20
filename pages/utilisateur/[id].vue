@@ -3,7 +3,9 @@
 
     const route = useRoute();
     const id = route.params.id;
-    const {data: user, error} = await useFetch(`/api/utilisateurs/${id}`);
+    const { data: response, error } = await useFetch(`/api/utilisateurs/${id}`);
+
+    const user = response?.value?.data || null;
 </script>
 
 <template>

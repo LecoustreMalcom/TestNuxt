@@ -1,5 +1,6 @@
 <script setup>
-    const {data: enigmes, error} = await useFetch("/api/enigmes");
+    const { data: response, error } = await useFetch("/api/enigmes");
+    const enigmes = response?.value?.data || [];
 </script>
 
 <template>

@@ -13,4 +13,4 @@ export const handleSubmit = async (username, email, motDePasse) => {
     } catch (err){
       console.error(err);
     }
-};  
+};

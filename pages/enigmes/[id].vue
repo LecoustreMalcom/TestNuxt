@@ -3,7 +3,9 @@
 
     const route = useRoute();
     const id = route.params.id;
-    const {data: enigme, error} = await useFetch(`/api/enigmes/${id}`);
+    const { data: response, error } = await useFetch(`/api/enigmes/${id}`);
+
+    const enigme = response?.value?.data || null;
 </script>
 
 <template>

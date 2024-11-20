@@ -17,8 +17,8 @@ const utilisateurSchema = new mongoose.Schema({
         tempsMoyenResolution: { type: Number, default: 0 }
       }
     }
-})
+});
 
-const UtilisateurModel = mongoose.model('Utilisateur', utilisateurSchema, 'Utilisateur')
+const UtilisateurModel = mongoose.model('Utilisateur', utilisateurSchema, 'Utilisateur');
 
-export default UtilisateurModel
+export default UtilisateurModel;
