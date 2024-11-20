@@ -7,8 +7,8 @@
     <nav>
         <NuxtLink to="/">Accueil</NuxtLink>
         <NuxtLink to="/enigmes">Enigmes</NuxtLink>
-        <NuxtLink to="/inscription">Inscription</NuxtLink>
     </nav>
+    <NuxtLink to="/inscription">S'inscrire</NuxtLink>
 </template>
 
 <style>

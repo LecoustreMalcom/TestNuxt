@@ -4,7 +4,8 @@
 
 <template>
   <div>
-    © 2024
+    <h1> Inscription </h1>
+    <RegisterForm />
   </div>
 </template>
 

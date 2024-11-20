@@ -1,8 +1,8 @@
-import EnigmeModel from "~/server/models/Enigme";
+import UtilisateurModel from "~/server/models/Utilisateur";
 
 export default defineEventHandler(async () =>{
     try{
-        const result = await EnigmeModel.find()
+        const result = await UtilisateurModel.find()
         return result
     } catch(err){
         console.error(err)

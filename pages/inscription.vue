@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div>
-    © 2024
-  </div>
+    <Register />
 </template>
 
 <style>
